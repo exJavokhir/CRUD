@@ -1,0 +1,27 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "crud application with express and mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "  ",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "crud",
+    "mongo",
+    "db"
+  ],
+  "author": "Javohir Shokirov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
